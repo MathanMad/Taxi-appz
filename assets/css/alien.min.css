@@ -234,13 +234,16 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 767px) {
-  .text-left--xs {
-    text-align: left;
-  }
-  .pull-left--xs {
-    float: left !important;
-  }
+@media screen and (max-width:767px) {
+    .text-left--xs {
+        text-align: left;
+      }
+      .pull-left--xs {
+        float: left !important;
+      }
+    .text-uppercase.u-Weight700.text-center {
+        margin-left: 20px;
+    }
 }
 
 .Split {
@@ -5032,6 +5035,8 @@ div[class*="col-"].media-left {
 }
 
 .u-Weight600 {
+    font-weight: 600;
+    margin-left: 25px;
   font-weight: 600;
 }
 
@@ -5381,6 +5386,8 @@ div[class*="col-"].media-left {
 }
 
 .u-Margin0 {
+    margin: 0;
+    margin-left: 20px;
   margin: 0;
 }
 
@@ -5744,6 +5751,8 @@ div[class*="col-"].media-left {
 }
 
 .u-PaddingTop50 {
+    padding-top: 50px;
+    margin-left: 7px;
   padding-top: 50px;
 }
 
