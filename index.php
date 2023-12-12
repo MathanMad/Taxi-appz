@@ -1200,15 +1200,20 @@ function test_input($data)
                             <div class="col-9 Home cd-hero__content cd-hero__content--half-width animate_left">
                                 
                                 <h3 class="u-Weight700 head mrl-40">A Cutting-Edge Solution for Taxi Booking, Scheduling, and Dispatching. Build Your App in Just 5 Days!</h3>
-                                <h5 class="u-Weight500 fs-125 mrl-40" style="font-style: normal;">Save time, reduce costs, and take control of your business with your own taxi dispatch software.</h5>
-                                <ul class="text-left ulist fs-125 mrl-40" style="list-style-type:disc;padding-left:5%;">
+                                <h5 class="u-Weight500 fs-125 mrl-40" style="font-style: normal;padding-top: 15px;">Save time, reduce costs, and take control of your business with your own taxi dispatch software.</h5>
+                                <ul class="text-left ulist fs-125 mrl-40" style="list-style-type:disc;padding-left:5%;padding-top: 15px;">
                                     <li class="list">Most advanced support system</li>
                                     <li class="list">Easy-to-use booking & tracking modules</li>
                                     <li class="list">Simple & quick to install</li>
                                     <li class="list">Quick accessible & fast-loading</li>
                                 </ul><br>
-                                <div class="txt mrl-40">
-                                    <a href="" class=" pricing_btn " data-toggle="modal" data-target="#contact-modal">Try Demo</a>
+                                <div class="txt mrl-40" style="padding-top: 15px;">
+                                    <a class="demo_btn" href="request-demo">
+                                        <span>
+                                        Try Demo
+                                        </span>
+                                    </a>
+                                    <!-- <a href="" class="demo_btn" data-toggle="modal" data-target="#contact-modal">Try Demo</a> -->
                                 </div>
                                 
                             </div>
@@ -1325,7 +1330,7 @@ function test_input($data)
                         <div class="carousel-inner u-MarginBottom10">
                             <div class="item our-client-scroll  active">
                                 <div class="col-md-12">
-                                    <div class="col-lg-12 col-xl-12 col-md-12 col-xs-12">
+                                    <div class="col-lg-12 col-xl-12 col-md-12 col-xs-12 Float-p">
                                         <div class="col-md-6 col-xl-3 col-lg-3 col-xs-6 col-sm-6 float-left">
                                             <img class="img-responsive lazyload" src="assets/imgs/client/on-taxi.png" alt="...">
                                         </div>
@@ -1344,7 +1349,7 @@ function test_input($data)
 
                             <div class="item our-client-scroll">
                                 <div class="col-md-12">
-                                    <div class="col-lg-12 col-xl-12 col-md-12 col-xs-12">
+                                    <div class="col-lg-12 col-xl-12 col-md-12 col-xs-12 Float-p">
                                         <div class="col-md-6 col-xl-3 col-lg-3 col-xs-6 col-sm-6 float-left">
                                             <img class="img-responsive lazyload" src="assets/imgs/client/client_2.jpg" alt="...">
                                         </div>
@@ -1364,7 +1369,7 @@ function test_input($data)
 
                             <div class="item our-client-scroll">
                                 <div class="col-md-12">
-                                    <div class="col-lg-12 col-xl-12 col-md-12 col-xs-12">
+                                    <div class="col-lg-12 col-xl-12 col-md-12 col-xs-12 Float-p">
                                         <div class="col-md-6 col-xl-3 col-lg-3 col-xs-6 col-sm-6 float-left">
                                             <img class="img-responsive lazyload" src="assets/imgs/client/client_1.jpg" alt="...">
                                         </div>
@@ -1384,7 +1389,7 @@ function test_input($data)
 
                             <div class="item our-client-scroll">
                                 <div class="col-md-12">
-                                    <div class="col-lg-12 col-xl-12 col-md-12 col-xs-12">
+                                    <div class="col-lg-12 col-xl-12 col-md-12 col-xs-12 Float-p">
                                         <div class="col-md-6 col-xl-3 col-lg-3 col-xs-6 col-sm-6 float-left">
                                             <img class="img-responsive lazyload" src="assets/imgs/client/obr.png" alt="...">
                                         </div>
@@ -1404,7 +1409,7 @@ function test_input($data)
                         
                             <div class="item our-client-scroll">
                                 <div class="col-md-12">
-                                    <div class="col-md-12" style="margin-bottom: 20px;">
+                                    <div class="col-lg-12 col-xl-12 col-md-12 col-xs-12 Float-p">
                                         <div class="col-md-6 col-xl-3 col-lg-3 col-xs-6 col-sm-6 float-left">
                                             <img class="img-responsive lazyload" src="assets/imgs/client/zawar.png" alt="...">
                                         </div>
@@ -1424,7 +1429,7 @@ function test_input($data)
 
                             <div class="item our-client-scroll">
                                 <div class="col-md-12">
-                                    <div class="col-lg-12 col-xl-12 col-md-12 col-xs-12">
+                                    <div class="col-lg-12 col-xl-12 col-md-12 col-xs-12 Float-p">
                                         <div class="col-md-6 col-xl-3 col-lg-3 col-xs-6 col-sm-6 float-left">
                                             <img class="img-responsive lazyload" src="assets/imgs/client/client_3.jpg" alt="...">
                                         </div>
@@ -1551,8 +1556,8 @@ function test_input($data)
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12" >
-                    <div><h2 class=" u-Weight600">TaxiAppz - Your All-In-One Taxi Dispatch Platform</h2></div>
-                    <div class="text-left ulist fs-125 mrl-40" >
+                    <div><h2 class="u-Weight600" style="margin-left:7%;">TaxiAppz - Your All-In-One Taxi Dispatch Platform</h2></div>
+                    <div class="text-left ulist fs-125 mrl-40">
                         <h5 class="lh-15 fs-125" style="margin-bottom: 15px;">Unlock greater creative rewards with our end-to-end taxi app solution, perfect for both startups and experienced entrepreneurs. With our taxi dispatch platform, you can have your own branded taxi booking app in just 7 days. Your customers can easily book, rent, or share nearby taxis with a few taps on their smartphones.</h5>
                         <h5 class="lh-15 fs-125" style="margin-bottom: 15px;">We'll quickly set up and customize the app with your company's name, logo, color scheme, preferred languages, currencies, SMS, and payment gateways. You'll start earning commissions from day one when customers use the app.</h5>
                         <h5 class="lh-15 fs-125">Since 2016, we've assisted taxi companies in launching taxi dispatch software, making us experts in the industry. Our taxi app clone is the most advanced on the market, incorporating industry-specific features. You can modernize your taxi business in just one week with a ready-made app and transition into a contemporary ride-hailing platform.</h5>
