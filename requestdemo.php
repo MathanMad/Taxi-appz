@@ -1151,7 +1151,7 @@ window.smartsupp||(function(d) {
     box-shadow: 3px 4px 3px #999;
     right: 30px;
     z-index: 100;
-    bottom: 23%;
+    bottom: 15%;
     left: 95%;
 }
 
