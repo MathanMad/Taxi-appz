@@ -909,9 +909,9 @@ window.smartsupp||(function(d) {
 
             .popup-btn{
             position: fixed;
-            width: 140px;
+            width: 150px;
             height: 30px;
-            left: 0.5%;
+            left: -0.5%;
             padding-left:50px;
             top: 30%;
             z-index: 1000;
@@ -1501,7 +1501,7 @@ window.smartsupp||(function(d) {
                                 <img src="assets/imgs/icon/taxi.png" alt="" height="42" class="lazyload">
                             </div>
                             <div class="u-PaddingTop10 ready">
-                                <h3 class="Blurb__hoverText u-Margin0">Ready</h3>
+                                <h3 class="Blurb__hoverText u-Margin03">Ready</h3>
                                 <h5 class="u-LetterSpacing1 start_text u-MarginTop10 mt-2" >Get your taxi app ready.</h5>
                             </div>
                         </div>
@@ -1514,7 +1514,7 @@ window.smartsupp||(function(d) {
                                 <img src="assets/imgs/icon/mobile-phone.png" alt="" class="lazyload" height="42">
                             </div>
                             <div class="u-PaddingTop10 ready">
-                                <h3 class="Blurb__hoverText u-Margin0">Steady</h3>
+                                <h3 class="Blurb__hoverText u-Margin03">Steady</h3>
                                 <h5 class="u-LetterSpacing1 start_text u-MarginTop10 mt-2">Take mobile app taxi bookings.</h5>
                             </div>
                         </div>
@@ -1527,7 +1527,7 @@ window.smartsupp||(function(d) {
                                 <img src="assets/imgs/icon/location.png" class="lazyload" alt="" height="42">
                             </div>
                             <div class="u-PaddingTop10 ready">
-                                <h3 class="Blurb__hoverText u-Margin0 ">Go &amp; Start</h3>
+                                <h3 class="Blurb__hoverText u-Margin03 ">Go &amp; Start</h3>
                                 <h5 class="u-LetterSpacing1 start_text u-MarginTop10 mt-2" >Maximize your taxi business profits.</h5>
                             </div>
                         </div>
@@ -1535,7 +1535,7 @@ window.smartsupp||(function(d) {
                 </div>
                 <!-- <div class="col-lg-3 col-sm-6 u-MarginBottom10">-->
                     <div class="Shortcode-button u-MarginTop30"> 
-                        <a href="contact" class="u-PaddingTop50 pricing_btn ">Lets Talk</a>
+                        <a href="contact" class="u-PaddingTop50 pricing_btn lets">Lets Talk</a>
                      </div>
                <!-- </div> -->
             </div>
@@ -1710,7 +1710,7 @@ window.smartsupp||(function(d) {
 
         <div class="col-md-12 u-MarginBottom10" style="display:auto">
             <div class="Shortcode-button u-MarginTop10 text-center" style="margin-top: 25px;">
-            <a href="features" class="u-PaddingTop50 pricing_btn fs-125"><b>View All Features</b></a>
+            <a href="features" class="u-PaddingTop50 pricing_btn fs-125 pr"><b>View All Features</b></a>
             </div>
         </div>
     </section>
@@ -1753,7 +1753,7 @@ window.smartsupp||(function(d) {
                                 <h5 class="fs-125 u-MarginTop0 u-MarginBottom20">A vibrant dashboard for automatically managing your taxi fleet, drivers, and cab dispatching.</h5>
                             </div>
                             <div class="row tab1" style="margin-top:5%">
-                            <a href="" class=" pricing_btn " data-toggle="modal" data-target="#contact-modal">Request Demo</a>
+                            <a href="" class="u-PaddingTop50 pricing_btn fs-125" data-toggle="modal" data-target="#contact-modal">Request Demo</a>
                                 <!-- <a href="request-demo" class="pricing_btn">Request Demo</a> -->
                             </div>
                         </div>
@@ -1788,7 +1788,7 @@ window.smartsupp||(function(d) {
                         <h2 class="text-uppercase u-Weight700 u-Margin0">JOIN THE ON-DEMAND REVOLUTIONS OF TAXI APPZ MOBILE SOLUTIONS.</h2>
                     </div>
                     <div class="row ">
-                        <h4 class="text-center fs-125">Double Your Revenue by Connecting To The World With The Best-in-Market Solutions</h4>
+                        <h4 class="text-center fs-125 Double">Double Your Revenue by Connecting To The World With The Best-in-Market Solutions</h4>
                     </div>
                 </div>
             </div>
@@ -1997,7 +1997,7 @@ window.smartsupp||(function(d) {
 
     <div class="col-md-12 u-MarginBottom10" style="display:contents">
         <div class="Shortcode-button text-center" style="margin-top: 25px;">
-        <a href="" class=" pricing_btn " data-toggle="modal" data-target="#contact-modal">Request Demo</a>
+        <a href="" class=" pricing_btn get" data-toggle="modal" data-target="#contact-modal">Request Demo</a>
         </div>
     </div>
     
@@ -2011,9 +2011,9 @@ window.smartsupp||(function(d) {
                         <h2 class="text-uppercase u-Weight700 u-Margin0">Welcome to Taxiappz
                         </h2>
                     </div>
-                    <h5 class="u-LineHeight2 u-MarginBottom50 fs-125">Our Main focus is to attain the high quality in no matter the size of the customer and their respective business.
+                    <h5 class="u-LineHeight2 u-MarginBottom50 fs-125 u-Margin012">Our Main focus is to attain the high quality in no matter the size of the customer and their respective business.
                                         </h5>
-                    <a href="" data-toggle="modal" data-target="#contact-modal" class="pricing_btn pricing_gn">Get Now</a>
+                    <a href="" data-toggle="modal" data-target="#contact-modal" class="pricing_btn pricing_gn get1">Get Now</a>
                     <!-- <img src="assets/imgs/text-john-lenon.png" alt="..." width="160"> -->
                 </div>
                 <div class="col-md-6 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 u-sm-MarginTop50">
