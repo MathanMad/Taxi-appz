@@ -215,7 +215,7 @@ window.smartsupp||(function(d) {
         <!-- <div class="container"> -->
         <div style="display: relative;width: 80%;margin: 0px auto;">
         <div class="text-right u-MarginBottom15">
-        <button type="button" class="developer_price fs-125 con" id="modal">Developers Model $1,495</button>   
+        <!-- <button type="button" class="developer_price fs-125 con" id="modal">Developers Model $1,495</button>    -->
         </div>
  
             <!-- id="nav_sticky" -->
@@ -1811,7 +1811,7 @@ window.smartsupp||(function(d) {
        
             <div class="container ">
             <div class="text-right u-MarginBottom15">
-        <button type="button" class="developer_price fs-125 con" id="modal">Developer Model $1,495</button>
+        <!-- <button type="button" class="developer_price fs-125 con" id="modal">Developer Model $1,495</button> -->
         </div>
 
         <!-- <div class="text-right u-MarginBottom15">

@@ -1205,7 +1205,7 @@ window.smartsupp||(function(d) {
                                     <li class="list">Quick accessible & fast-loading</li>
                                 </ul><br>
                                 <div class="txt mrl-40" style="padding-top: 15px;">
-                                    <a class="demo_btn" href="request-demo">
+                                    <a type="button" href="" class="demo_btn" data-toggle="modal" data-target="#contact-modal">
                                         <span>
                                         Try Demo
                                         </span>

@@ -370,6 +370,9 @@ div.cd-hero__content.cd-hero__content--half-width.animate_left.in-left h5 {
         margin-left: 25px;
         margin-right: 25px;
     }
+    .item{
+        padding-top: 13px;
+       }
 }
 
 @media (min-width: 641px) and (max-width: 768px) {
@@ -433,6 +436,9 @@ div.cd-hero__content.cd-hero__content--half-width.animate_left.in-left h5 {
    }
    .u-Weight600{
     margin-left: 10% !important;
+   }
+   .item{
+    padding-top: 13px;
    }
     
     
@@ -502,6 +508,12 @@ div.cd-hero__content.cd-hero__content--half-width.animate_left.in-left h5 {
    .u-Weight600{
     margin-left: 10% !important;
    }
+   .fs-125{
+    font-weight: 400 !important;
+   }
+   .item{
+    padding-top: 13px;
+   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
     .cd-hero__content.cd-hero__content--half-width.animate_left.in-left {
@@ -562,6 +574,9 @@ div.cd-hero__content.cd-hero__content--half-width.animate_left.in-left h5 {
    }
    .u-Weight600{
     margin-left: 10% !important;
+   }
+   .item{
+    padding-top: 13px;
    }
    
 }
@@ -640,6 +655,9 @@ div.cd-hero__content.cd-hero__content--half-width.animate_left.in-left h5 {
    }
    .ulist {
     font-size: 15px !important;
+   }
+   .item{
+    padding-top: 13px;
    }
     
 }
@@ -943,6 +961,9 @@ div.cd-hero__content.cd-hero__content--half-width.animate_left.in-left h5 {
     .u-xs-PaddingBottom70 {
         padding-bottom: 20px;
     }
+    .item{
+        padding-top: 13px;
+       }
 }
 
 
