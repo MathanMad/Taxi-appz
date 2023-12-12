@@ -1,0 +1,15 @@
+
+RewriteEngine On
+RewriteRule ^features features.php [QSA,L]
+RewriteRule ^portfolio portfolio.php [QSA,L]
+RewriteRule ^request-demo requestdemo.php [QSA,L]
+RewriteRule ^contact contact.php [QSA,L]
+RewriteRule ^demo demo.php [QSA,L]
+RewriteRule ^thankyou thankyou.php [QSA,L]
+RewriteRule ^pricing pricing.php [QSA,L]
+RewriteRule ^privacy-policy privacy_policy.php [QSA,L]
+RewriteRule ^food-ordering-and-delivery-system products.php [QSA,L]
+
+
+
+
