@@ -714,6 +714,19 @@ function test_input($data)
     <link rel="stylesheet" href="assets/fonts/satoshi/WEB/fonts/Satoshi-Regular.woff">
     <link rel="stylesheet" href="assets/fonts/satoshi/WEB/fonts/Satoshi-Regular.eot">
     <link rel="stylesheet" href="assets/fonts/satoshi/WEB/fonts/Satoshi-Regular.woff2">
+    
+<!-- Smartsupp Live Chat script -->
+<script type="text/javascript">
+var _smartsupp = _smartsupp || {};
+_smartsupp.key = 'ede1c9cdfd9fe4792fdf952da007b4b624d05309';
+window.smartsupp||(function(d) {
+  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+  c.type='text/javascript';c.charset='utf-8';c.async=true;
+  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+})(document);
+</script>
+<noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
 
     <style>
         .carousel-inner img{
@@ -1097,22 +1110,6 @@ function test_input($data)
 
   gtag('config', 'AW-10811920151');
 </script>
-
-    <!-- Smartsupp Live Chat script -->
-        <script type="text/javascript">
-        var smartsupp = smartsupp || {};
-        _smartsupp.key = 'ede1c9cdfd9fe4792fdf952da007b4b624d05309';
-        window.smartsupp || (function (d) {
-            var s, c, o = smartsupp = function () { o._.push(arguments) }; o._ = [];
-            s = d.getElementsByTagName('script')[0]; c = d.createElement('script');
-            c.type = 'text/javascript'; c.charset = 'utf-8'; c.async = true;
-            c.src = 'https://www.smartsuppchat.com/loader.js?'; s.parentNode.insertBefore(c, s);
-        })(document);
-    </script>
-    <!-- <noscript> Powered by <a href=“https://www.smartsupp.xn--com-9o0a target=“_blank”>Smartsupp</a></noscript> -->
-
-
-
 </head>
 
 <body>
@@ -1249,9 +1246,9 @@ function test_input($data)
                             <label for="name" style="font-size:16px;">Name <span style="color:#ff0000;">*</span></label>
                             <input type="text"  style="color:black !important; height:30px;" placeholder="Name" name="contact_name" data-error="You must enter name" required class="form-control">
                             <?php if (isset($_SESSION['nameErr'])) { ?>
-                                    <div class="help-block with-errors"><?= $_SESSION[
-                                        'nameErr'
-                                    ] ?></div>
+                                                                                <div class="help-block with-errors"><?= $_SESSION[
+                                                                                    'nameErr'
+                                                                                ] ?></div>
                                 <?php } ?>
                         </div>
 
@@ -1259,9 +1256,9 @@ function test_input($data)
                             <label for="email" style="font-size:16px;">Email <span style="color:#ff0000;">*</span></label>
                             <input type="email"  style="color:black !important;  height:30px;" name="contact_email" class="form-control" placeholder="Email" data-parsley-required="true" required>
                             <?php if (isset($_SESSION['emailErr'])) { ?>
-                                    <div class="help-block with-errors"><?= $_SESSION[
-                                        'emailErr'
-                                    ] ?></div>
+                                                                                <div class="help-block with-errors"><?= $_SESSION[
+                                                                                    'emailErr'
+                                                                                ] ?></div>
                                 <?php } ?>
                         </div>
 
@@ -1274,9 +1271,9 @@ function test_input($data)
                             <label for="name" style="font-size:16px;">Mobile Number <span style="color:#ff0000;">*</span></label>
                             <input id="phone"  class="form-control" onkeypress="return isNumberKey(event)" name="contact_mobile_number" type="tel" onchange="getNumber()" >
                                 <?php if (isset($_SESSION['phoneErr'])) { ?>
-                                        <div class="help-block with-errors"><?= $_SESSION[
-                                            'phoneErr'
-                                        ] ?></div>
+                                                                                    <div class="help-block with-errors"><?= $_SESSION[
+                                                                                        'phoneErr'
+                                                                                    ] ?></div>
                                         <?php } ?>
                         </div>
 
@@ -1285,9 +1282,9 @@ function test_input($data)
                             <label for="message" style="font-size:16px; ">Message <span style="color:#ff0000;">*</span></label>
                             <textarea  placeholder="Enter Your Message" rows="2" cols="3" name="contact_message" data-parsley-required="true" required  style="color:black !important;  min-height:30px;" class="form-control"></textarea>
                             <?php if (isset($_SESSION['messageErr'])) { ?>
-                                        <div class="help-block with-errors"><?= $_SESSION[
-                                            'messageErr'
-                                        ] ?></div>
+                                                                                    <div class="help-block with-errors"><?= $_SESSION[
+                                                                                        'messageErr'
+                                                                                    ] ?></div>
                                         <?php } ?>
                         </div>	
                         
@@ -2569,21 +2566,21 @@ function test_input($data)
 <style>
 
 .whats-app {
-            position: fixed;
-            width: 50px;
-            height: 50px;
-            bottom: 25px;
-            background-color: #25d366;
-            color: #FFF;
-            border-radius: 50px;
-            text-align: center;
-            font-size: 35px;
-            box-shadow: 3px 4px 3px #999;
-            right: 30px;
-            z-index: 100;
-            bottom: 23%;
-            left: 95%;
-        }
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 25px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 35px;
+    box-shadow: 3px 4px 3px #999;
+    right: 30px;
+    z-index: 100;
+    bottom: 23%;
+    left: 95%;
+}
 
 </style>
 
@@ -3014,7 +3011,7 @@ ul {
     </script> -->
 
      <!--Start of Tawk.to Script-->
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
 var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
@@ -3024,7 +3021,7 @@ s1.charset='UTF-8';
 s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
 })();
-</script>
+</script> -->
 <!--End of Tawk.to Script-->
 </body>
 
