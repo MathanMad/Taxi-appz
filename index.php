@@ -1251,9 +1251,9 @@ window.smartsupp||(function(d) {
                             <label for="name" style="font-size:16px;">Name <span style="color:#ff0000;">*</span></label>
                             <input type="text"  style="color:black !important; height:30px;" placeholder="Name" name="contact_name" data-error="You must enter name" required class="form-control">
                             <?php if (isset($_SESSION['nameErr'])) { ?>
-                                                                                <div class="help-block with-errors"><?= $_SESSION[
-                                                                                    'nameErr'
-                                                                                ] ?></div>
+                                                                                    <div class="help-block with-errors"><?= $_SESSION[
+                                                                                        'nameErr'
+                                                                                    ] ?></div>
                                 <?php } ?>
                         </div>
 
@@ -1261,9 +1261,9 @@ window.smartsupp||(function(d) {
                             <label for="email" style="font-size:16px;">Email <span style="color:#ff0000;">*</span></label>
                             <input type="email"  style="color:black !important;  height:30px;" name="contact_email" class="form-control" placeholder="Email" data-parsley-required="true" required>
                             <?php if (isset($_SESSION['emailErr'])) { ?>
-                                                                                <div class="help-block with-errors"><?= $_SESSION[
-                                                                                    'emailErr'
-                                                                                ] ?></div>
+                                                                                    <div class="help-block with-errors"><?= $_SESSION[
+                                                                                        'emailErr'
+                                                                                    ] ?></div>
                                 <?php } ?>
                         </div>
 
@@ -1276,9 +1276,9 @@ window.smartsupp||(function(d) {
                             <label for="name" style="font-size:16px;">Mobile Number <span style="color:#ff0000;">*</span></label>
                             <input id="phone"  class="form-control" onkeypress="return isNumberKey(event)" name="contact_mobile_number" type="tel" onchange="getNumber()" >
                                 <?php if (isset($_SESSION['phoneErr'])) { ?>
-                                                                                    <div class="help-block with-errors"><?= $_SESSION[
-                                                                                        'phoneErr'
-                                                                                    ] ?></div>
+                                                                                        <div class="help-block with-errors"><?= $_SESSION[
+                                                                                            'phoneErr'
+                                                                                        ] ?></div>
                                         <?php } ?>
                         </div>
 
@@ -1287,9 +1287,9 @@ window.smartsupp||(function(d) {
                             <label for="message" style="font-size:16px; ">Message <span style="color:#ff0000;">*</span></label>
                             <textarea  placeholder="Enter Your Message" rows="2" cols="3" name="contact_message" data-parsley-required="true" required  style="color:black !important;  min-height:30px;" class="form-control"></textarea>
                             <?php if (isset($_SESSION['messageErr'])) { ?>
-                                                                                    <div class="help-block with-errors"><?= $_SESSION[
-                                                                                        'messageErr'
-                                                                                    ] ?></div>
+                                                                                        <div class="help-block with-errors"><?= $_SESSION[
+                                                                                            'messageErr'
+                                                                                        ] ?></div>
                                         <?php } ?>
                         </div>	
                         
@@ -2579,7 +2579,7 @@ window.smartsupp||(function(d) {
     box-shadow: 3px 4px 3px #999;
     right: 30px;
     z-index: 100;
-    bottom: 23%;
+    bottom: 15%;
     left: 95%;
 }
 
