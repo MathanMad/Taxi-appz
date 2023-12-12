@@ -1727,7 +1727,7 @@ function test_input($data)
                         <!-- <h3 class="text-center" style="color:  #1d33d4;font-weight: 600;"></h3> -->
                     </div>
                 </div>
-                <div class="container" style=" margin-right: auto;margin-left: auto;">
+                <div class="container" style=" margin-right: auto;margin-left:20px;">
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <div class="row tab1" id="tabs1">
@@ -1878,10 +1878,6 @@ function test_input($data)
             </div>
         </div>
     </section>
-    <!-- portfolio_grid -->
-
-
-    <!--accordion start-->
     <section class="u-PaddingTop70 u-PaddingBottom20 u-xs-PaddingTop20 u-xs-PaddingBottom20">
         <div class="container">
             <div class="row u-MarginBottom20 u-xs-MarginBottom50 text-center">
