@@ -40,6 +40,8 @@
         gtag('config', 'AW-10811920151');
     </script>
 
+
+
 </head>
 
 <body>
@@ -4619,7 +4621,8 @@
                     <h5 class="text-uppercase u-Weight800 u-LetterSpacing2 u-MarginTop0">Contact Us</h5>
                     <ul class="light-gray-link list-unstyled u-MarginBottom0">
                         <li class="u-MarginBottom15">
-                        <p>1A, Spectrum building Phase - 2,<br> Pappanaicken palayam,<br> Coimbatore-641037, <br> Tamil Nadu, India.</p>
+                            <p>1A, Spectrum building Phase - 2,<br> Pappanaicken palayam,<br> Coimbatore-641037, <br>
+                                Tamil Nadu, India.</p>
                         </li>
                     </ul>
                     <p>© 2016 Taxiappz. <br /> Email: <a href="mailto:sales@taxiappz.com">sales@taxiappz.com</a>
