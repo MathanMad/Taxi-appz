@@ -109,12 +109,36 @@ div.cd-hero__content.cd-hero__content--half-width.animate_left.in-left h5 {
         padding-top: 300px !important;
         margin-top:70px;
     }
+    .u-PaddingRight25 {
+        margin-left: 35%;
+       }
+       .ready h3{
+        text-align: center;
+        margin-left: -13%;
+       }
+       .ready h5 {
+        text-align: center;
+        margin-left: -5%;
+        }
+        
 }
 @media (min-width: 200px) and (max-width: 640px){
 .nav-tabs>li>a>span{
     display: block;
     font-size: 10px;
 }
+.u-PaddingRight25 {
+    margin-left: 35%;
+   }
+   .ready h3{
+    text-align: center;
+    margin-left: -13%;
+   }
+   .ready h5 {
+    text-align: center;
+    margin-left: -5%;
+    }
+    
 }
 @media (min-width: 581px) and (max-width: 640px) {
     .sticky-height {
@@ -514,6 +538,17 @@ div.cd-hero__content.cd-hero__content--half-width.animate_left.in-left h5 {
    .item{
     padding-top: 13px;
    }
+   .u-PaddingRight25 {
+    margin-left: 35%;
+   }
+   .ready h3{
+    text-align: center;
+    margin-left: -17%;
+   }
+   .ready h5 {
+    text-align: center;
+    margin-left: -13%;
+    }
 }
 @media (min-width: 481px) and (max-width: 768px) {
     .cd-hero__content.cd-hero__content--half-width.animate_left.in-left {
@@ -578,6 +613,17 @@ div.cd-hero__content.cd-hero__content--half-width.animate_left.in-left h5 {
    .item{
     padding-top: 13px;
    }
+   .u-PaddingRight25 {
+    margin-left: 40%;
+   }
+   .ready h3{
+    text-align: center;
+    margin-left: -10%;
+   }
+   .ready h5 {
+    text-align: center;
+    margin-left: -5%;
+    }
    
 }
 @media (min-width: 308px) and (max-width: 390px) {
@@ -659,6 +705,17 @@ div.cd-hero__content.cd-hero__content--half-width.animate_left.in-left h5 {
    .item{
     padding-top: 13px;
    }
+   .u-PaddingRight25 {
+    margin-left: 35%;
+   }
+   .ready h3{
+    text-align: center;
+    margin-left: -13%;
+   }
+   .ready h5 {
+    text-align: center;
+    margin-left: -5%;
+    }
     
 }
 
@@ -964,6 +1021,7 @@ div.cd-hero__content.cd-hero__content--half-width.animate_left.in-left h5 {
     .item{
         padding-top: 13px;
        }
+       
 }
 
 
